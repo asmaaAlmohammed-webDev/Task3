@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task3</title>
+    <!-- Font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Kaushan+Script&family=Ribeye+Marrow&family=Sevillana&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Css file -->
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <!-- start navbar -->
+      <nav class="navbar width-100">
+        <h2>Asmaa Almohammed</h2>
+        <ul class="links flex-row">
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+      <nav class="navbar2 width-100">
+        <h2>Asmaa Almohammed</h2>
+        <div>
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle"
+            ><i class="fa-solid fa-bars menu-nav"></i
+          ></label>
+          <div class="side-bar flex-column">
+            <label for="menu-toggle"
+              ><i class="fa-solid fa-bars menu-nav"></i
+            ></label>
+            <ul class="links-nav2 flex-column">
+              <li><a href="#portfolio">portfolio</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- end navbar -->
+
+      <!-- start hero -->
+      <section class="hero flex-column">
+        <div class="hero-img">
+          <img src="./assets/images/hero.png" alt="avatar" />
+        </div>
+        <h1>Asmaa Almohammed</h1>
+        <div class="star-icon-white">
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p>Fronted Developer - Web Designer - IT Student</p>
+      </section>
+      <!-- end hero -->
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+      <!-- start portfolio-section -->
+      <section class="portfolio-sec flex-column width-100" id="portfolio">
+        <h3 class="title">portfolio</h3>
+        <div class="star-icon-black">
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="cards flex-row">
+          <div class="card1 card">
+            <h4>Html</h4>
+            <div class="circle circle1">
+              <img src="./assets/images/html-logo.png" alt="html-logo" />
+            </div>
+          </div>
+          <div class="card2 card">
+            <h4>Css</h4>
+            <div class="circle circle2">
+              <img src="./assets/images/css-logo.png" alt="css-logo" />
+            </div>
+          </div>
+          <div class="card3 card">
+            <h4>Git</h4>
+            <div class="circle circle3">
+              <img src="./assets/images/git-logo.png" alt="git-logo" />
+            </div>
+          </div>
+          <div class="card4 card">
+            <h4>React js</h4>
+            <div class="circle circle4">
+              <img src="./assets/images/react-logo.png" alt="react-logo" />
+            </div>
+          </div>
+          <div class="card5 card">
+            <h4>Bootstrap</h4>
+            <div class="circle circle5">
+              <img
+                src="./assets/images/bootstrap-logo.png"
+                alt="bootstrap-logo"
+              />
+            </div>
+          </div>
+          <div class="card6 card">
+            <h4>JavaScript</h4>
+            <div class="circle circle6">
+              <img src="./assets/images/js-logo.png" alt="js-logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end portfolio-section -->
+
+      <!-- start about-section -->
+      <section class="about-sec flex-column width-100" id="about">
+        <h3 class="title">about</h3>
+        <div class="star-icon-white">
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="content flex-row width-100">
+          <p>
+            I am a fronted developer for websites, fifth year IT student at
+            faculty of informatics engineering-University of Aleppo, i am
+            working hard to develop my website development expertise.
+          </p>
+
+          <p>
+            Currently, I am intern at focal X agency, i will learn all of the
+            following skills: Html, Css, Bootstrap, JavaScript, Git, Github and
+            React js. i have worked on several small projects.
+          </p>
+        </div>
+        <button class="btn flex-row">
+          <i class="fa-solid fa-download"></i>
+          <p>Download Cv</p>
+        </button>
+      </section>
+      <!-- end about-section -->
+      <!-- start contact-section -->
+      <section class="contact-sec flex-column width-100" id="contact">
+        <h3 class="title">contact me</h3>
+        <div class="star-icon-black">
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <form class="form flex-column">
+          <input type="text" class="input" required placeholder="Full name" />
+
+          <input
+            type="email"
+            class="input"
+            required
+            placeholder="Email address"
+          />
+
+          <input
+            type="number"
+            class="input"
+            required
+            placeholder="Phone number"
+          />
+
+          <textarea
+            id="mess"
+            class="textarea"
+            required
+            placeholder="Message"
+          ></textarea>
+          <button class="btn">Send</button>
+        </form>
+      </section>
+      <!-- end contact-section -->
+    </main>
+    <!-- end main -->
+    <!-- start footer -->
+    <footer class="width-100">
+      <div class="box1 width-100 flex-row">
+        <div class="location-box">
+          <h5 class="title2">Location</h5>
+          <p>2215 Syria Aleppo Saif AlDawla 65421</p>
+        </div>
+
+        <div class="around-box">
+          <h5 class="title2">Around the web</h5>
+          <div class="icons flex-row">
+            <div class="icon">
+              <a
+                href="https://www.facebook.com/share/Q41P2gpfropUZwXs/?mibextid=qi2Omg"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+            <div class="icon">
+              <a href="#"> <i class="fa-brands fa-twitter"> </i></a>
+            </div>
+            <div class="icon">
+              <a href="https://www.linkedin.com/in/asmaa-al-mohammed-562894223/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <div class="icon">
+              <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="about-box">
+          <h5 class="title2">about freelancer</h5>
+          <p>
+            Freelance is a free to use,MIT licensed bootstrap theme created
+            <a href="#"><span>by Asmaa Almohammed.</span></a>
+          </p>
+        </div>
+      </div>
+      <div class="box2">
+        <p>Copyright &copy; Your Website 2024</p>
+      </div>
+    </footer>
+    <!-- end footer -->
+  </body>
+</html>
